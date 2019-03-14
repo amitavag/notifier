@@ -1,0 +1,97 @@
+.form-signin {
+	max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-control, .form-email .form-control, .single-notification .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 13px;
+	margin-bottom: 5px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 13px;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    background-image: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+
+.form-email {
+	max-width: 330px;
+    margin: 0 auto;
+}
+
+button {
+	margin-top: 10px;
+}
+
+.email-list {
+	height: 300px;
+	overflow: scroll;
+}
+
+.jumbotron {
+	padding: 25px !important;
+}
+
+.notification-list ul {
+	padding: 0px;
+	list-style: none;
+}
+
+.notification-list ul li {
+	padding: 6px;
+    background: darkgrey;
+    color: white;
+    cursor: pointer;
+    padding-left: 20px;
+	margin-bottom: 7px;
+	position: relative;
+}
+
+.notification-list ul li::after {
+	content: "\203A";
+    float: right;
+    font-size: 50px;
+    right: 14px;
+    top: -24px;
+    position: absolute;
+}
+
+.none {
+	display: none;
+}
+
+.single-notification {
+	padding: 20px;
+}
+
+.multi-btn button {
+	width: 30%;
+}
+
+.col-lg-8 .email-list {
+	height: 410px;
+}
+
+.header h1 {
+	margin-top: 10px !important;
+}

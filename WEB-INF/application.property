@@ -1,0 +1,15 @@
+user.name=admin
+user.pass=admin123
+login.timeout=600
+
+## DB Settings
+db.ip=localhost
+db.port=3306
+db.schema=notifier
+db.user=root
+db.password=
+
+server.url=http://localhost:8082/notifier/application
+email.smtp=smtp.server
+email.alias=TEST EMAIL ALIAS
+from.email=test@test.com
